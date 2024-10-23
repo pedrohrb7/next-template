@@ -1,0 +1,5 @@
+{
+  "./src/**": "yarn prettier:format",
+  "./src/**/*.{ts,tsx}": "yarn lint:fix",
+  "ignore": "**/dist/*"
+}
